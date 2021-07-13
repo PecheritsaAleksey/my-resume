@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Aleksey Pecheritsa Resume', // <title>
   manifestName: 'Resume',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestShortName: 'Pecheritsa', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
