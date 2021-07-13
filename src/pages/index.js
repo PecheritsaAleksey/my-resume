@@ -23,10 +23,11 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+            Well-qualified Full Stack Developer familiar with wide range of
+            programming utilities and languages. Knowledgeable of backend and
+            frontend development requirements. Handles any part of process with
+            ease. Collaborative team player with excellent technical abilities
+            offering 5 years of related experience.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -52,69 +53,73 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Full Stack Web Developer</h3>
+              <div className="subheading mb-3">
+                Didital Mind Development, Krasnoyarsk
+              </div>
+              <p>Took part in the following projects:</p>
+              <ul>
+                <li>
+                  Big payments system for one of the biggest car manufacturers
+                  in Europe
+                </li>
+                <li>Service for the sale and rental of real estate </li>
+                <li>
+                  Internal project management tool integrated with Microsoft TFS
+                </li>
+                <li>Channel Manager for hotels</li>
+              </ul>
               <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
+                Designed and developed efficient and maintainable software
+                according to business objectives and needs of various clients.
+              </p>
+              <p>
+                Maintained complex technology infrastructure and collaborated
+                with product team to implement new features and strategically
+                plan for future products.
+              </p>
+              <p>
+                Reviewed individual department performance and worked with
+                leadership to improve processes, procedures and practices.
+              </p>
+              <p>
+                Compiled IT training and assessment resources based on
+                understanding of technical processes and skills-development
+                needs.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">December 2018 - Present</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Full Stack Web Developer</h3>
+              <div className="subheading mb-3">Glavniy Zaim, Krasnoyarsk.</div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+                Developed, coded and updated internal system for tracking
+                workers, clients, documents (like a little CRM)
+              </p>
+              <p>
+                Built user interface, data visualizations and designed overall
+                user experience
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+              <span className="text-primary">October 2017 - December 2018</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
-              </p>
+              <h3 className="mb-0">Full Stack Web Developer</h3>
+              <div className="subheading mb-3">Arview, Tomsk.</div>
+              <p>Start the way as a Full Stack Asp Net developer</p>
+              <p>Developed, coded and updated automobile portal site</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">October 2016 - July 2017</span>
             </div>
           </div>
         </div>
@@ -131,24 +136,27 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 className="mb-0">Siberian federal university</h3>
+              <div className="subheading mb-3">
+                Master of programming engineering
+              </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">September 2017 - June 2019</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 className="mb-0">
+                Tomsk state university of control systems and radioelectronics
+              </h3>
+              <div className="subheading mb-3">
+                Bachelor of programming engineering
+              </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <span className="text-primary">September 2013 - June 2017</span>
             </div>
           </div>
         </div>
@@ -168,40 +176,25 @@ const IndexPage = () => (
           </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
-              <i className="fab fa-html5"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-css3-alt"></i>
+              <i className="fab fa-windows"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-js-square"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-angular"></i>
-            </li>
-            <li className="list-inline-item">
               <i className="fab fa-react"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-node-js"></i>
+              <i className="fab fa-node"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-sass"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-less"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-wordpress"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-gulp"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-grunt"></i>
+              <i className="fab fa-git-alt"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-npm"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-database"></i>
             </li>
           </ul>
 
@@ -209,19 +202,23 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
+              .NET Core development
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
+              JS Full Stack development (Node, Express, React)
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams
+              SQL and NoSQL databases (MicrosoftSQL, Postgress, MongoDB)
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
               Agile Development &amp; Scrum
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Mentoring students and trainees
             </li>
           </ul>
         </div>
@@ -236,61 +233,13 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
+            Have a lot of hobbies. Like to making a videos, playing basketball.
+            Interested in motorbikes (unfortunately have no one, but in plan),
+            Gym, Hiking and Traveling
           </p>
           <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
+            Interested in sci-fi and fantasy genre movies and books. Also like videogames.
           </p>
-        </div>
-      </section>
-
-      <hr className="m-0" />
-
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="awards"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Awards &amp; Certifications</h2>
-          <ul className="fa-ul mb-0">
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2008
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005
-            </li>
-          </ul>
         </div>
       </section>
     </div>
