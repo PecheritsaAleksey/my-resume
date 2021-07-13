@@ -19,7 +19,7 @@ const IndexPage = () => (
             <span className="text-primary">{config.lastName}</span>
           </h1>
           <div className="subheading mb-5">
-            {config.address} · {config.phone} ·
+            {config.address} · <a href={`tel:${config.phone}`}>{config.phone}</a> ·
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
@@ -238,7 +238,8 @@ const IndexPage = () => (
             Gym, Hiking and Traveling
           </p>
           <p className="mb-0">
-            Interested in sci-fi and fantasy genre movies and books. Also like videogames.
+            Interested in sci-fi and fantasy genre movies and books. Also like
+            videogames.
           </p>
         </div>
       </section>
